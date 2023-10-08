@@ -1,0 +1,25 @@
+.storeItem_buyButton{
+    color: #ffffff;
+    background-color: #e63b3b;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-weight: 600;
+    font-size: x-small;
+    border-radius: 10px;
+    border: solid 0.4px #e63b3b;
+
+  }
+
+  .storeItem_buyButton:hover{
+    background-color: #ffffff;
+    color: #e63b3b;
+  }
+
+  .storeItem{
+    border: 1px solid gray;
+    border-radius: 2%;
+ }
+ 
+ body{
+    overflow-x: hidden;
+ }
