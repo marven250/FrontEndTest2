@@ -46,6 +46,7 @@
 .slick-next{
     left: 83%; 
 }
+
 .slick-prev:hover,
 .slick-next:hover
 {
@@ -204,3 +205,14 @@
     opacity: .75;
     color: black;
 }
+
+@media screen and (max-width: 700px) {
+    .slick-next{
+        left: 65%; 
+    }
+    .slick-dots
+{
+    right: 15%;
+}
+ 
+  }
