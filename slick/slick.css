@@ -19,9 +19,10 @@
 }
 
 .slick-list
-{
-    position: relative;
-
+{   position: relative;
+    left: 2.5%;
+    text-align: center;
+    width: 80%;
     display: block;
     overflow: hidden;
 

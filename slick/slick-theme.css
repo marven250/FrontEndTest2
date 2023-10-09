@@ -16,17 +16,20 @@
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
-.slick-prev{
+.slick-prev,
+.slick-next
+{
     font-size: 0;
     line-height: 0;
+    border-radius: 10%;
 
     position: absolute;
     top: 50%;
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -39,30 +42,9 @@
     outline: none;
     background: gray;
 }
-.slick-next
-{
-    font-size: 0;
-    line-height: 0;
 
-    position: absolute;
-    left:88%;
-    top: 50%;
-
-    display: block;
-
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-
-    cursor: pointer;
-
-    color: black;
-    border: none;
-    outline: none;
-    background: gray;
+.slick-next{
+    left: 83%; 
 }
 .slick-prev:hover,
 .slick-next:hover
@@ -144,7 +126,7 @@
 {
     position: absolute;
     bottom: -60px;
-    right: 120px;
+    right: 10%;
     display: block;
     width: 100%;
     padding: 0;
