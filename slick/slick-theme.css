@@ -41,6 +41,7 @@
     border: none;
     outline: none;
     background: gray;
+    z-index: 2;
 }
 
 .slick-next{
